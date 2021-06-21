@@ -1,1 +1,1 @@
-lastButOne xs = take 1 (drop (length xs - 2)  xs)
+lastButOne xs = head (drop (length xs - 2)  xs)
